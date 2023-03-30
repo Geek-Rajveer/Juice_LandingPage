@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+
+#left #content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 5%;
+}
+
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+
+#lnavr a{
+    font-size: 15px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#lnav i{
+    font-size: 23px;
+}
+#content h1{
+    font-size: 45px;
+    font-weight: 680;
+}
+#content p{
+    opacity: .6;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+#content a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+}
+
+#rtop{
+    display: flex;  
+    width: 100%;
+    height: 60%;
+}
+#rbottom{
+    width: 100%;
+    height: 40%;
+    background-image: url(https://images.unsplash.com/photo-1595475207225-428b62bda831?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-size: contain  ;
+}
+#rtopleft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1621054143165-33e0e77558d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1621659911279-b08ce9ff421f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rtlcontent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.651);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+
+}
+#rtlcontent h3{
+    color: white;
+    padding: 10px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    font-weight: 650;
+    letter-spacing: 2px;
+}
+
+#rtlcontent p{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
